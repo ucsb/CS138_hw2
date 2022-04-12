@@ -3,8 +3,9 @@ start: Q0
 accepting: {Q4}
 
 Q0 (x -> Q1)(y -> Q5)
-Q1 (y -> Q2)(x -> Q0)
+Q1 (y -> Q2)(x -> Q1)
 Q2 (x -> Q3)(y -> Q4)
 Q3 (x -> Q3)(y -> Q3)
 Q4 (x -> Q1)(y -> Q4)
 Q5 (y -> Q4)(x -> Q1)
+
