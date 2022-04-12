@@ -1,0 +1,11 @@
+alphabet: {x,y}
+start: Q0
+accepting: {Q5}
+
+Q0 (x -> Q1)(y -> Q3)
+Q1 (x -> Q2)(y -> Q6)
+Q2 (x -> Q2)(y -> Q2)
+Q3 (y -> Q4)(x -> Q2)
+Q4 (x -> Q5)(y -> Q5)
+Q5 (y -> Q2)(x -> Q2)
+Q6 (y -> Q5)(x -> Q2)
